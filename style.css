@@ -62,7 +62,7 @@ a:focus-visible {
     gap:20px; 
     padding:12px 23px; 
     border:1px solid #3b3b3d; 
-    border-radius:999px; 
+    border-radius:10px; 
     background:rgba(25,25,27,.88); 
     backdrop-filter:blur(18px); 
     box-shadow:0 12px 35px #0006; 
@@ -201,6 +201,18 @@ h2 {
     gap:16px; 
 }
 
+.row { 
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    gap: 16px; 
+}
+
+.column { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; 
+}
+
 .card { 
     background:linear-gradient(145deg,#1d1d1f,#141415); 
     border:1px solid #333336; border-radius:17px; 
@@ -244,7 +256,7 @@ h2 {
     font-size:.75rem; 
     border:1px solid #414143; 
     background:#242426; 
-    border-radius:999px; 
+    border-radius:10px; 
     padding:3px 10px; 
     color:#d0d0d1; 
 }
