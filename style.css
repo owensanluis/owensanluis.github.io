@@ -285,6 +285,26 @@ footer .container {
     gap:16px; 
     flex-wrap:wrap; 
 }
+
+.about-layout {
+  display: grid;
+  grid-template-columns: 1.5fr 0.8fr;
+  gap: 60px;
+}
+
+.portrait {
+  width: 100%;
+  max-width: 375px;
+  border-radius: 12px;
+  justify-self: center;
+  margin-right: 20px;
+  padding: 10px;
+  background: #a4a4ab;
+  border: 1px solid #323234;
+  box-sizing: border-box;
+  justify-self: center;
+}
+
 @media (max-width:650px) { 
     .nav-wrap {
         top:10px;padding:0 10px;
@@ -311,7 +331,16 @@ footer .container {
     } 
     .card {
         padding:22px;
-    } 
+    }
+
+    .about-layout {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .portrait {
+        max-width: 300px;
+    }
 }
 
 @media (prefers-reduced-motion:reduce) { 
