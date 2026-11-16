@@ -214,8 +214,9 @@ h2 {
 }
 
 .card { 
-    background:linear-gradient(145deg,#1d1d1f,#141415); 
-    border:1px solid #333336; border-radius:17px; 
+    background:#252527; 
+    border:3px solid #807d7d; 
+    border-radius:20px; 
     padding:27px; 
     transition:border-color .2s,transform .2s; 
 }
