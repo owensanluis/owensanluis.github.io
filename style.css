@@ -317,6 +317,42 @@ footer .container {
   justify-self: center;
 }
 
+.involvement-card {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  align-items: center;
+  gap: 28px;
+  padding: 24px;
+}
+
+.involvement-card .logo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  background: #101012;
+  border-radius: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.involvement-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.involvement-details h3,
+.involvement-details h4,
+.involvement-details p {
+  margin: 0;
+}
+
+.involvement-details h3 {
+  font-size: 1.3rem;
+}
+
+
+
 @media (max-width:650px) { 
     .nav-wrap {
         top:10px;padding:0 10px;
